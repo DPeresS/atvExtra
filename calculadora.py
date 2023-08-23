@@ -1,7 +1,6 @@
 
 from doctest import OutputChecker
 
-
 opcao=0
 while(opcao<1 or opcao>4):
     print("Calculadora Simples")
@@ -18,7 +17,6 @@ while(opcao<1 or opcao>4):
     opcao=int(input("Opção: "))
     if(opcao<1 or opcao>4):
         OutputChecker.clear()
-
 print("")
 if(opcao==1):
      print("Resultado:",  n1, "+", n2, "=", n1+n2)
